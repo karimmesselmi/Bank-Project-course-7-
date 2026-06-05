@@ -1,103 +1,78 @@
-🏦 نظـام إدارة البنـك البسـيط (Simple Bank System) 🏦
+🏦 Simple Bank System 🏦
 
+👋 Welcome to my bank project repository!
 
-👋أهلا بك في مستودع مشروع البنك الخاص بي!
+💻 This is my second practical programming application using only C++. I built it to develop my programming skills and apply programming logic correctly and systematically.
 
+🎓 Learning and Programming Foundation:
 
-💻 هذا العمل هو تطبيقي البرمجي العملي الثاني باستخدام لغة C++ فقط، وقمت ببنائه لتطوير مهاراتي البرمجية وتطبيق المنطق البرمجي بشكل سليم ومنظم.
+This project was built and developed entirely as part of the practical applications in the "Algorithms and Problem Solving - Level 3 (Course 7)" course on the platform (https://programmingadvices.com) under the supervision and guidance of the esteemed engineer Mohammed Abu Hadhoud (https://www.linkedin.com/in/abuhadhoud) 👑. This course has contributed to my solid foundation in logical thinking and writing clean code.
 
 
-🎓 مصدر التعلم والتأسيس البرمجي:
+📝 Project Overview:
 
-تم بناء هذا المشروع وتطويره بالكامل كجزء من التطبيقات العملية في "دورة خوارزميات وحل المشاكل - المستوى الثالث (كورس رقم 7)" على منصة (https://programmingadvices.com) تحت إشراف وتوجيه المهندس القدير محمد أبو هدهود (https://www.linkedin.com/in/abuhadhoud) 👑. ساهم هذا المسار في تأسيسي بشكل متين على التفكير المنطقي وكتابة الأكواد النظيفة.
+This program is a text-based application (Console Application) that simulates the basic banking operations any bank needs to manage customer accounts and details. 👥 The project aims to facilitate secure and seamless account inquiries and modifications through a simple, interactive interface.
 
+✨ Key System Features:
 
+The system provides the user with the following basic banking operations:
 
-📝 وصف المشروع العام:
+📊 First: View Customer List (View details of all registered accounts).
 
-البرنامج عبارة عن تطبيق نصي (Console Application) يحاكي نظام العمليات البنكية الأساسية التي يحتاجها أي بنك لإدارة حسابات وتفاصيل العملاء 👥. يهدف المشروع إلى تسهيل عمليات الاستعلام والتعديل على الحسابات بأمان وسلاسة من خلال واجهة تفاعلية بسيطة.
+➕ Second: Add New Customer (Create a new bank account with a security code and balance).
 
+❌ Third: Delete Customer Account (Safely remove accounts from the system).
 
-✨ أبرز مميزات النظام:
+🔄 Fourth: Modify Account Details (Update customer information and balance at any time).
 
-يوفر النظام للمستخدم العمليات البنكية الأساسية التالية:
+🔍 Fifth: Search Customer (Find customer details instantly using the account number).
 
-📊 أولاً: عرض قائمة العملاء (استعراض تفاصيل جميع الحسابات المسجلة).
+💰 Sixth: Withdrawal and Deposit Operations (Manage funds movement and verify sufficient balance).
 
-➕ ثانياً: إضافة عميل جديد (إنشاء حساب بنكي جديد مع تحديد رمز الأمان والرصيد).
+❌ Seventh: Terminate the program if you wish.
 
-❌ ثالثاً: حذف حساب عميل (إمكانية إزالة الحسابات من النظام بشكل آمن).
+🧠 Programming Concepts Applied in the Code:
 
-🔄 رابعاً: تعديل بيانات الحساب (تحديث معلومات العميل ورصيده في أي وقت).
+During the development of this project, I learned and applied the following programming concepts:
 
-🔍 خامساً: البحث عن عميل (العثور على بيانات العميل فوراً باستخدام رقم الحساب).
+📦 Structures: To group different customer data into a single model.
 
-💰 سادساً: عمليات السحب والإيداع (إدارة حركة الأموال والتحقق من توفر الرصيد الكافي).
+⛓️ Vectors and Files: To dynamically manage and store the customer list in the program's memory.
 
-❌ سابعاً:انهاء البرنامج ادا رغبت أنت في دلك.
+🧩 Functions: To divide the code into small, independent, and easily maintainable units.
 
+⚙️ Control Structures: To utilize menu options and keep the program running.
 
+🛡️ Data Validation: To prevent withdrawals exceeding the available balance and ensure the accuracy of inputs.
 
-🧠 المفاهيم البرمجية المطبقة في الكود:
 
-خلال بناء هذا المشروع، قمت بتعلم وتطبيق المفاهيم البرمجية التالية:
+📂 Project File Structure:
 
-📦 التراكيب (Structs): لتجميع بيانات العميل المختلفة في نموذج واحد.
+This project is characterized by its simplicity and clean structure to ensure it works on any machine:
 
-⛓️التعامل مع المتجهات والملفات (Vectors and Files): لإدارة وتخزين قائمة العملاء في ذاكرة البرنامج بشكل ديناميكي.
+📄 (bank.cpp) file: The main source code written in C++.
 
-🧩 الدوال (Functions): لتقسيم الكود إلى وحدات صغيرة مستقلة وسهلة الصيانة.
+📄 (README.md) file: The project directory and current instructions.
 
-⚙️ الممرات والتحكم (Control Structures): استخدام خيارات القائمة وإبقاء البرنامج قيد التشغيل.
+🚀 How to Run the Project on Your Machine:
 
-🛡️ التحقق من البيانات (Validation): منع سحب مبالغ أكبر من الرصيد المتوفر وضمان صحة المدخلات.
+To run this project locally, make sure you have a C++ compiler installed on your machine, then follow these steps:
 
-📂 هيكلية ملفات المشروع:
+1️⃣ Step 1: Download the bank.cpp file.
 
-يتميز هذا المشروع بالبساطة والنقاء في الهيكلية لضمان عمله على أي جهاز:
+2️⃣ Step 2: Open a Terminal or command prompt window in the file folder.
 
-📄 ملف (bank.cpp): كود المصدر الرئيسي المكتوب بلغة C++.
+3️⃣ Step 3: Compile the code using the command: g++ bank.cpp -o BankSystem
 
-📄 ملف (README.md): دليل المشروع والتعليمات الحالي.
+4️⃣ Step 4: Run the program using the command: ./BankSystem
 
+👤 Code Writer and Developer:
 
-🚀 كيفية تشغيل المشروع على جهازك:
+✍️ Full Name: Karim Messelmi
 
-لتشغيل هذا المشروع محلياً، تأكد من تثبيت مترجم لغة C++ على جهازك، ثم اتبع الخطوات التالية:
+LinkedIn: https://www.linkedin.com/in/karim-messelmi-34a02a379
 
-1️⃣ الخطوة الأولى: قم بتحميل الملف البرمجي bank.cpp.
 
-2️⃣ الخطوة الثانية: افتح شاشة Terminal أو موجه الأوامر في مجلد الملف.
 
-3️⃣ الخطوة الثالثة: قم بتركيب الكود عبر الأمر: g++ bank.cpp -o BankSystem
 
-4️⃣ الخطوة الرابعة: قم بتشغيل البرنامج عبر الأمر: BankSystem/.
-
-
-
-
-
-
-
-
-
-
-
-
-
-👤 كاتب الكود والتطوير:
-
-✍️ الاسم الكامل: karim messelmi
-
-:  Linkedin حساب 
-https://www.linkedin.com/in/karim-messelmi-34a02a379
-
-
-
-
-
-
-
-
-
-✨ "هذا المشروع والمشاريع السابقة ماهو الا البداية في رحلة برمجية طويلة، ومستمر في التعلم والتطوير يومياً!" ✨
+✨ "This project and previous projects are just the beginning of a long programming journey, and I continue to learn and develop daily!" ✨!" ✨
