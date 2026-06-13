@@ -2,7 +2,7 @@
 
 A console-based banking application built in C++, where users can manage customer accounts through a simple interactive menu. The system supports deposits, withdrawals, account creation, deletion, and more — all stored in a local text file.
 
-This is my second practical programming project in C++, built to apply real-world programming concepts in a structured and maintainable way.
+This is my third practical programming project in C++, built to apply real-world programming concepts in a structured and maintainable way.
 
 ---
 
